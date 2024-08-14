@@ -8,7 +8,8 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <h1>Hello fyf</h1>
+        <h1>Hello</h1>
+        <button className='btn btn-primary'>Hello</button>
         <Weather city="Porto"/>
         <a
           className="App-link"
