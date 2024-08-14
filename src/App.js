@@ -1,25 +1,39 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Weather from './Weather';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <h1>Hello</h1>
-        <button className='btn btn-primary'>Hello</button>
+      <div className="container">
         <Weather city="Porto"/>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <footer>
+          <a
+            href="https://github.com/cpmssz"
+            target="_blank"
+            rel="noopener noreferrer"
+            >
+            Open-source code by{" "}
+          </a>{" "}
+            CS,
+          code hosted on{" "}
+          <a
+            href="https://github.com/cpmssz/react-app"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            GitHub
+          </a>{" "}
+            and website{" "} 
+          <a
+            href="https://meteorology-weather-react-app.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+           on Netlify
+          </a>
+        </footer>  
+      </div>
     </div>
   );
 }
