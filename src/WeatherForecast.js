@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from "react";
 import "./WeatherForecast.css";
 import axios from "axios";
@@ -29,6 +28,7 @@ export default function WeatherForecast(props) {
                 </div>
               );
             }
+            return null;
           })}
         </div>
       </div>
